@@ -1,15 +1,11 @@
 package net.azisaba.lobby.azisabahashcomputation;
 
-import net.md_5.bungee.api.chat.ClickEvent;
-import net.md_5.bungee.api.chat.TextComponent;
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
 
-import java.awt.*;
-import java.awt.datatransfer.Clipboard;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
