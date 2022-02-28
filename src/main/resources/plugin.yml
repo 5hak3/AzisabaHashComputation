@@ -1,0 +1,18 @@
+name: AzisabaHashComputation
+version: '${project.version}'
+main: net.azisaba.lobby.azisabahashcomputation.AzisabaHashComputation
+authors: [ 5hak3 ]
+description: For migrate accounts.
+
+permissions:
+  azihashcompute.member:
+    default: not op
+
+commands:
+  createcode:
+    permission: azihashcompute.member
+    description: 引き継ぎコードを発行します
+  migration:
+    permission: azihashcompute.member
+    description: 前のMCIDと引き継ぎコードを入力して移行を確認します
+    usage: /<command> [前のMCID] [引き継ぎコード]
