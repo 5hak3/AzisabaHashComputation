@@ -64,7 +64,6 @@ public final class AzisabaHashComputation extends JavaPlugin {
                 return true;
             } else {
                 sender.sendMessage(ChatColor.RED + "照合に失敗しました．MCIDと引き継ぎコードを再確認してください．");
-                getLogger().info(args[0] + " and " + sender.getName() + " are not the same person.");
                 return false;
             }
         }
