@@ -102,8 +102,8 @@ public final class AzisabaHashComputation extends JavaPlugin implements Listener
         component.setUnderlined(true);
         getServer().getScheduler().runTaskLater(this,
                 () -> {
-                    event.getPlayer().sendMessage(ChatColor.AQUA + "Mojangアカウントは3/10に使えなくなります！Microsoftアカウントにまだ移行していない人は移行してください！");
-                    event.getPlayer().sendMessage(ChatColor.RED + "Microsoftアカウントに移行できない人は新しいアカウントを買う必要があります！詳しくは公式Discordを確認してください！");
+//                    event.getPlayer().sendMessage(ChatColor.AQUA + "Mojangアカウントは3/10に使えなくなります！Microsoftアカウントにまだ移行していない人は移行してください！");
+//                    event.getPlayer().sendMessage(ChatColor.RED + "Microsoftアカウントに移行できない人は新しいアカウントを買う必要があります！詳しくは公式Discordを確認してください！");
                     event.getPlayer().sendMessage(component);
                 },
                 20*6);
